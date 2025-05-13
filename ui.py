@@ -11,7 +11,7 @@ from models import get_list_of_models
 import tempfile
 from langchain_core.messages import HumanMessage, AIMessage
 from docx import Document as DocxDocument  # Add this import
-
+ 
 PERSIST_DIRECTORY = "storage"
 EMBEDDING_MODEL = "nomic-embed-text"
 SUMMARIZE_PROMPT = ChatPromptTemplate.from_template("""
