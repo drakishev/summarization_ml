@@ -94,3 +94,4 @@ def load_documents(path: str) -> List[Document]:
         print(f"Loading {file_type} files")
         docs.extend(loader.load())
     return docs
+    
