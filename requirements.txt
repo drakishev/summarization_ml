@@ -1,0 +1,15 @@
+chromadb
+langchain
+langchain-community
+langchain-ollama
+numpy
+ollama
+pypdf
+python-docx
+requests
+sentence-transformers
+streamlit
+tiktoken
+tqdm
+unstructured
+watchdog
