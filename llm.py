@@ -9,7 +9,7 @@ from langchain.prompts.prompt import PromptTemplate
 from langchain_core.documents import Document  # Add this import
 import tiktoken
 import re
-
+ 
 def count_tokens(text):
     encoding = tiktoken.get_encoding("cl100k_base")
     return len(encoding.encode(text))
